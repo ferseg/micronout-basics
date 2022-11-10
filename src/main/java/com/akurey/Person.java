@@ -1,12 +1,14 @@
 package com.akurey;
 
 import io.micronaut.core.annotation.Introspected;
+import io.micronaut.core.annotation.NonNull;
 
 /**
  * Person
  */
 @Introspected
 public class Person {
+    @NonNull
     private final String name;
     private final String lastName;
     private final int age;
