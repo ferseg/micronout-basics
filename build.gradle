@@ -17,6 +17,8 @@ dependencies {
     implementation("jakarta.annotation:jakarta.annotation-api")
     runtimeOnly("ch.qos.logback:logback-classic")
     implementation("io.micronaut:micronaut-validation")
+    implementation platform("io.projectreactor:reactor-bom:2020.0.4")
+    implementation ("io.projectreactor:reactor-core")
 
 }
 
