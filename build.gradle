@@ -19,7 +19,7 @@ dependencies {
     implementation("io.micronaut:micronaut-validation")
     implementation platform("io.projectreactor:reactor-bom:2020.0.4")
     implementation ("io.projectreactor:reactor-core")
-
+    implementation("net.logstash.logback:logstash-logback-encoder:7.2")
 }
 
 
